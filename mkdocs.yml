@@ -1,0 +1,19 @@
+site_name: ChainForge Documentation
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: indigo
+    accent: deep orange
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - def_list
